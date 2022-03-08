@@ -1,6 +1,6 @@
-# NMT Automated Acad-PrintBox Printer Connection Scripts
+# Automated Printer Connection Scripts
 
-This script automatically adds the NMT network printers from the Acad-PrintBox network.
+This script automatically adds the NMT network printers from the NMT Acad-PrintBox network.
 
 ## HOW TO USE (2 steps):
 
