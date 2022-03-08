@@ -6,6 +6,7 @@ This script automatically adds the NMT network printers from Acad-PrintBox.
 
 1. in printers.cfg, set which printers will be added, for example:
 
+	```
 	# Example contents of the printers.cfg file
 	# Lines with the pound sign (#) as the first character are comments/ignored.
 
@@ -35,6 +36,7 @@ This script automatically adds the NMT network printers from Acad-PrintBox.
 
 	# It's good to keep the extra printers in the file for quick changes later on.
 	# \\Acad-PrintBox\ is prepended automatically, so you only need to enter the printer name.
+	```
 
 2. Double click the _add_printers_nps.bat script.
 
