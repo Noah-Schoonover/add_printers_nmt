@@ -1,6 +1,7 @@
 # Automated Printer Connection Scripts
 
-This script automatically adds the NMT network printers from the NMT Acad-PrintBox network.
+This script automatically adds the NMT network printers from the Acad-PrintBox network.
+It is meant for use with campus computers.
 
 ## HOW TO USE (2 steps):
 
@@ -44,7 +45,7 @@ This script automatically adds the NMT network printers from the NMT Acad-PrintB
 
 
 
-## MORE NOTES:
+## NOTES:
 
 You can copy the scripts folder into the desktop files and run the `add_printers.bat` script
 on startup or when you need to print.
@@ -54,10 +55,12 @@ a library computer may never be able to install a printer in the Torres dorms.
 However, you should be able to add all library printers from a library computer.
 
 This script does exactly the same thing as:
+```
 	a. "Add a printer or Scanner"
 	b. "The Printer I want isn't Listed"
 	c. "Select a shared printer by name"
 	d. Typing `\\Acad-PrintBox\` and selecting a printer to install
+```
 the process is simply automated by using the `rundll32 printui.dll PrintUIEntry` command.
 
 
