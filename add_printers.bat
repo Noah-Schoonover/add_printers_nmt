@@ -12,7 +12,7 @@ for /f "tokens=*" %%a in (printers.cfg) do (
 
 FOR %%a IN (%printers%) DO (
 	echo adding printer: \\Acad-PrintBox\%%a
-	rem rundll32 printui.dll PrintUIEntry /in /n\\Acad-PrintBox\%%a
+	rundll32 printui.dll PrintUIEntry /in /n\\Acad-PrintBox\%%a
 )
 
 pause
