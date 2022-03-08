@@ -48,8 +48,8 @@ It is meant for use with campus computers.
 ## NOTES:
 
 You can copy the scripts folder into the desktop files and run the `add_printers.bat` script
-on startup or when you need to print. You can also hide the scripts folder in your documents, and
-add a shortcut to `add_printers.bat` on the desktop for a cleaner experience.
+on startup/login or when you need to print. You can also hide the scripts folder in your documents,
+and add a shortcut to `add_printers.bat` on the desktop for a cleaner experience.
 
 I have noticed that some printers are unreachable from some locations on campus;
 a library computer may never be able to install a printer in the Torres dorms.
