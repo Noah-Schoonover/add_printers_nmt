@@ -10,5 +10,4 @@ for /f "tokens=*" %%a in (printers.cfg) do (
 		rundll32 printui.dll PrintUIEntry /in /n\\Acad-PrintBox\!p!
 	)
 )
-
 pause
