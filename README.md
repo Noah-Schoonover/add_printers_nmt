@@ -2,7 +2,7 @@
 
 This script automatically adds the NMT network printers from the Acad-PrintBox network.
 
-## HOW TO USE:
+## HOW TO USE (2 steps):
 
 1. in `printers.cfg`, indicate which printers should be added, for example:
 
