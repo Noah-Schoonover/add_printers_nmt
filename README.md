@@ -56,13 +56,13 @@ However, you should be able to add all library printers from a library computer.
 
 This script does exactly the same thing as:
 
-	a. "Add a printer or Scanner"
+a. "Add a printer or Scanner"
 
-	b. "The Printer I want isn't Listed"
+b. "The Printer I want isn't Listed"
 
-	c. "Select a shared printer by name"
-	
-	d. Typing `\\Acad-PrintBox\` and selecting a printer to install
+c. "Select a shared printer by name"
+
+d. Typing `\\Acad-PrintBox\` and selecting a printer to install
 
 the process is simply automated by using the `rundll32 printui.dll PrintUIEntry` command.
 
