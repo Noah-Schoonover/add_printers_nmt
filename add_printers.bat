@@ -3,7 +3,7 @@ CLS
 @setlocal enableextensions enabledelayedexpansion
 
 set printers=
-for /f "tokens=*" %%a in (__config.ini) do (
+for /f "tokens=*" %%a in (printers.cfg) do (
 	set p=%%a
 	IF /I "!p:~0,1!" NEQ "#" (
 		set printers=!printers! !p!
