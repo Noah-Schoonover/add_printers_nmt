@@ -62,7 +62,7 @@ This script does exactly the same thing as:
 
 	c. "Select a shared printer by name"
 
-	d. Typing `\\Acad-PrintBox\` and selecting a printer to install
+	d. Typing `\\Acad-PrintBox\` and selecting a printer to install (for each printer)
 
 the process is simply automated by using the `rundll32 printui.dll PrintUIEntry` command.
 
